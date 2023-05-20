@@ -17,16 +17,25 @@ Repository description:
 Firsts Steps
 -----------
 
+clone this repository
+```bash
+git clone https://github.com/santosfmpedro/web_scraper_meli.git
+```
+
+change de directory 
+```bash
+cd web_scraper_meli
+```
+
 installing dependences 
 
 ```bash
 pip install -r requirements.txt
 ```
 
-
 Running the scrapper script
 
 ```bash
-pip install -r requirements.txt
+python3 src/web_scraper_meli.py
 ```
 
