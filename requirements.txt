@@ -1,10 +1,7 @@
 requests
-bs4
-BeautifulSoup
+beautifulsoup4
 pandas
-re
+regex
 fastparquet
 pyarrow
-os
-
 
