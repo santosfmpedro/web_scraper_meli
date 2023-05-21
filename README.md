@@ -13,19 +13,21 @@ Repository description:
 - notebook.ipynb: Python notebook to check if all is working
 - logs.log: logs from script 
 
-Firsts Steps
+Running the code
 -----------
 
-clone this repository
+Clone this repository
 ```bash
 git clone https://github.com/santosfmpedro/web_scraper_meli.git
 ```
 
-installing dependences 
+Install libraries required
 ```bash
 pip install -r requirements.txt
 ```
 
-You can run the script using the notebook.ipynb file
+Run the web scraper script using the notebook.ipynb file.
 
-With  notebook.ipynb you can see the parquet file
+The web scraper code takes approximately 16 minutes to run completely.
+
+You can see the parquet file collected with notebook.ipynb.

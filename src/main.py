@@ -69,7 +69,7 @@ def extract_info_from_product_url(product_url): ## this function get the informa
     
     soup = BeautifulSoup(html, 'html.parser')
 
-    if response.status_code == 200: ## check if connection is suc
+    if response.status_code == 200: ## check if successed
         try:
             values = soup.find_all('div', class_ ="ui-pdp-container ui-pdp-container--pdp")[0] ## filttering common div
         except:
@@ -107,7 +107,7 @@ def extract_info_from_product_url(product_url): ## this function get the informa
                 response = requests.get(product_url,headers=headers)
                 logging.info(f'{response} url: {product_url}')
                 html = response.text
-                count = count + 1 ## more one attemp
+                count = count + 1 ## more one attempt
                 soup = BeautifulSoup(html, 'html.parser')
 
         try:
