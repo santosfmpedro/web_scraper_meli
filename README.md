@@ -1,18 +1,17 @@
 # Web Scraper Mercado Livre
 Scraper to collect information about products on the cell phone offers page of Mercado Livre.
 
-
 Repository description:
 -----------
 - data: 
     - Where products.parquet file is, with products informations collected.
 - src:
-    - web_scraper_meli.py: file with the main code
-    - aux_parquet.py: module created to help save parquet files
-- requirements.txt: libraries necessary
+    - main.py: file with the main code
+- requirements.txt: necessary libraries 
 - .gitignore
 - README.md
 - notebook.ipynb: Python notebook to check if all is working
+- logs.log: logs from run 
 
 Firsts Steps
 -----------
@@ -33,9 +32,6 @@ installing dependences
 pip install -r requirements.txt
 ```
 
-Running the scrapper script
+You can run the script using the notebook.ipynb file
 
-```bash
-python3 src/web_scraper_meli.py
-```
-
+With  notebook.ipynb you can see the parquet finished
