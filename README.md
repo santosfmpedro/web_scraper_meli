@@ -11,7 +11,7 @@ Repository description:
 - .gitignore
 - README.md
 - notebook.ipynb: Python notebook to check if all is working
-- logs.log: logs from run 
+- logs.log: logs from script 
 
 Firsts Steps
 -----------
@@ -21,17 +21,11 @@ clone this repository
 git clone https://github.com/santosfmpedro/web_scraper_meli.git
 ```
 
-change de directory 
-```bash
-cd web_scraper_meli
-```
-
 installing dependences 
-
 ```bash
 pip install -r requirements.txt
 ```
 
 You can run the script using the notebook.ipynb file
 
-With  notebook.ipynb you can see the parquet finished
+With  notebook.ipynb you can see the parquet file

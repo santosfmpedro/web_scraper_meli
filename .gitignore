@@ -18,6 +18,8 @@ lib/
 lib64/
 parts/
 sdist/
+data/*.parquet
+*.parquet
 var/
 wheels/
 share/python-wheels/
